@@ -1,0 +1,67 @@
+/* Configurações Globais*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background: rgb(17,108,233);
+background: linear-gradient(180deg, rgba(17,108,233,1) 0%, rgba(11,215,213,1) 34%, rgba(34,215,233,1) 62%, rgba(0,146,255,1) 100%);
+}
+
+#container{
+    background-color: black;
+    opacity: 0.7;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 350px;
+    background: rgb(17,203,233);
+    background: linear-gradient(180deg, rgba(17,203,233,1) 0%, rgba(11,162,215,1) 34%, rgba(34,195,233,1) 62%, rgba(0,211,255,1) 100%);
+}
+
+input{
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.temp{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.box-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.umidade{
+    margin-top: 15px;
+}
+
+.texto-previsao{
+    text-transform: capitalize;
+}
